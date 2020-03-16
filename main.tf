@@ -1,7 +1,7 @@
 resource "google_compute_instance" "web" {
   name         = "web"
   machine_type = var.instance_type
-  zone         = "us-east1-a"
+  zone         = "us-east1-b"
   count        = 1
 
   boot_disk {
